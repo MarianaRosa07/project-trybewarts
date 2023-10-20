@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+  font-family: Georgia, Times, serif;
+}
+
+#trybewarts-header-title {
+  color: white;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.border-login {
+  border-radius: 10px;
+  height: 30px;
+  width: 200px;
+}
+
+.placeholder-text::placeholder {
+  color: gray;
+  margin-bottom: 10px;
+  padding: 20px;
+  font-family: Georgia, Times, serif;
+  font-size: 18px;
+}
+
+#evaluation-form {
+  width: 675px;
+  flex-direction: column;
+}
+
+.container-form {
+  display: flex;
+}
+
+#trybewarts-forms-logo {
+  display: flex;
+  height: 500px;
+  align-items: end;
+}
+
+.form-text {
+  font-family: Georgia, Times, serif;
+  font-size: 25px;
+}
+
+#coments {
+  width: 600px;
+  height: 100px;
+  font-family: Georgia, Times, serif;
+  font-size: 20px;
+}
